@@ -34,20 +34,20 @@ CREATE TABLE `file_uploads` (
 /*Data for the table `file_uploads` */
 
 insert  into `file_uploads`(`id`,`name`,`email`,`valid`,`created`,`modified`) 
-	values (1,'Andy','andy@gmail.com',1,'2020-11-22 06:41:50','2020-11-22 06:41:50'),
-	(2,'Betty','betty@gmail.com',1,'2020-11-22 06:41:50','2020-11-22 06:41:50'),
-	(3,'Caren','caren@gmail.com',1,'2020-11-22 06:41:50','2020-11-22 06:41:50'),
-	(4,'Daryl','daryl@gmail.com',1,'2020-11-22 06:41:50','2020-11-22 06:41:50'),
-	(5,'Ethan','ethan@gmail.com',1,'2020-11-22 06:41:50','2020-11-22 06:41:50'),
-	(6,'Fiona','fiona@gmail.com',1,'2020-11-22 06:41:50','2020-11-22 06:41:50'),
-	(7,'Gino','gino@gmail.com',1,'2020-11-22 06:41:50','2020-11-22 06:41:50'),
-	(8,'Helen','helen@gmail.com',1,'2020-11-22 06:41:50','2020-11-22 06:41:50'),
-	(9,'Ivy','ivy@gmail.com',1,'2020-11-22 06:41:50','2020-11-22 06:41:50'),
-	(10,'Jay','jay@gmail.com',1,'2020-11-22 06:41:50','2020-11-22 06:41:50'),
-	(11,'Katty','katty@gmail.com',1,'2020-11-22 06:41:50','2020-11-22 06:41:50'),
-	(12,'Linda','linda@gmail.com',1,'2020-11-22 06:41:50','2020-11-22 06:41:50'),
-	(13,'Mandy','mandy@gmail.com',1,'2020-11-22 06:41:50','2020-11-22 06:41:50'),
-	(14,'Nancy','nancy@gmail.com',1,'2020-11-22 06:41:50','2020-11-22 06:41:50');
+	values (1,'Andy','andy@gmail.com',1,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP),
+	(2,'Betty','betty@gmail.com',1,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP),
+	(3,'Caren','caren@gmail.com',1,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP),
+	(4,'Daryl','daryl@gmail.com',1,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP),
+	(5,'Ethan','ethan@gmail.com',1,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP),
+	(6,'Fiona','fiona@gmail.com',1,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP),
+	(7,'Gino','gino@gmail.com',1,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP),
+	(8,'Helen','helen@gmail.com',1,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP),
+	(9,'Ivy','ivy@gmail.com',1,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP),
+	(10,'Jay','jay@gmail.com',1,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP),
+	(11,'Katty','katty@gmail.com',1,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP),
+	(12,'Linda','linda@gmail.com',1,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP),
+	(13,'Mandy','mandy@gmail.com',1,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP),
+	(14,'Nancy','nancy@gmail.com',1,CURRENT_TIMESTAMP,CURRENT_TIMESTAMP);
 
 /*Table structure for table `items` */
 
